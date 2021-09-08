@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    margin: 0%;
+}
+.div1{
+    width: 100%;
+    height: 170px;
+    padding-top: 2%;
+    background-image: url('adrien-olichon-ilVYjf0J378-unsplash\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.heading{
+    margin-left: 44%;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.input{
+    width: 41%;
+    margin-left: 27%;
+}
+.fas{
+    color: white;
+    
+}
+.div2{
+    width: 100%;
+    float: left;
+    height: 592px;
+    background-image: url('marcus-dall-col-XU-mMDweXR4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div3{
+    width: 50%;
+    height: 428px;
+    margin-left: 26%;
+    margin-top: 90px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.div4{
+    width: 100%;
+    height: 39PX;
+    color: whitesmoke;
+}
+.div5{
+    width: 100%;
+    height: 51PX;
+    color: whitesmoke;
+} 
+.name11{
+    margin-left: 39%;
+    margin-top: 2%;
+}
+.c{
+    margin-left: 39.5%;
+    margin-top: 3%;
+}
+.t{
+    margin-left: 36%;
+    margin-top: 3%;
+}
+.h{
+    margin-left: 39%;
+    margin-top: 3%;
+}
+.p{
+    margin-left: 39%;
+    margin-top: 3%;
+}
+.l{
+    margin-left: 38%;
+    margin-top: 3%;
+}
+@media (max-width:480px){
+    .heading{
+        margin-left: 28%;
+        
+        margin-top: 10%;
+    }
+    .div2{
+        height: 590px;
+    }
+    .input{
+        margin-left: 20%;
+    }
+    .name11 {
+        margin-left: 33%;
+        font-size: 19px;
+    }
+    .c {
+        margin-left: 21%;
+        margin-top: 8%;
+    }
+    .div5{
+        font-size: 17px;
+        height: 65px;
+    }
+    .t{
+        margin-left: 9%;
+    }
+    .h {
+        margin-left: 21%;
+        
+    }
+    .p {
+        margin-left: 19%;
+    }
+    .l {
+        margin-left: 17%;
+        margin-top: 3%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1366px){
+    .div2{
+        height: 1203px;
+    }
+
+}
+@media (min-width: 375px) and (max-width: 812px){
+    .div2{
+        height: 647px;
+    }
+    .div5{
+        height: 65px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .div2{
+        height: 855px;
+    }
+
+}
